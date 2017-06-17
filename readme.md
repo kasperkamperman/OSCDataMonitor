@@ -1,4 +1,4 @@
-#OSC (Open Sound Control) Data Monitor
+# OSC (Open Sound Control) Data Monitor
 
 Monitor incoming OSC data on your network with this little program. A quick way to check if you have communication with OSC sending equipment in your network. See [http://www.kasperkamperman.com/blog/osc-datamonitor/](http://www.kasperkamperman.com/blog/osc-datamonitor/) for a video walkthrough.
 
@@ -19,7 +19,7 @@ Thanks to [Andreas Schlegel (sojamo)](http://sojamo.com) for the excellent [OscP
 This monitor was originally developed for a [databending workshop](https://code.google.com/archive/p/osc-tools/). 
 
 ---
-##More info about the OSC protocol. 
+## More info about the OSC protocol. 
 
 * [YouTube video. The OSC protocol explained by me.](https://www.youtube.com/watch?v=0uOR2idKvrM)
 
