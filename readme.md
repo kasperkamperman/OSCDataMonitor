@@ -4,7 +4,7 @@ Monitor incoming OSC data on your network with this little program. A quick way 
 
 ---
 
-It's developed in Processing and available for OSC, Windows and Linux.
+It's developed in Processing and available for MacOS, Windows and Linux.
 
 The Processing code was updated on 17-06-2017 to work with Processing 3 and the ControlP5 library (tested version 2.2.6).
 
