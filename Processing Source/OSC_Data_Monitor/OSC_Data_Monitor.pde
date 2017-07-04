@@ -249,6 +249,18 @@ void controlEvent(ControlEvent theEvent) {
       textInput.submit();
     }
     
+    if(name == "Clear views") {
+      listReceivedOscAddresses.clear();
+      listMonitorOSCAddresses.clear();
+      monitorHash.clear();
+      monitorList.clear();
+      oscaddressesHash.clear();
+      oscaddressesList.clear();
+      countFilteredaddresses = 0;
+      oscaddressCounter = 0; 
+          
+    }
+    
   }
   
   if (theEvent.isGroup()) {
@@ -338,17 +350,6 @@ public void stopListeningToPort(int port)
     listCommonOscPorts.addItem(str(port), port);
     monitorList.add((String) "- Stopped listening to port: "+port);
   }
-}
-
-public void buttonEmptyLists(int theValue) {
-  listReceivedOscAddresses.clear();
-  listMonitorOSCAddresses.clear();
-  monitorHash.clear();
-  monitorList.clear();
-  oscaddressesHash.clear();
-  oscaddressesList.clear();
-  countFilteredaddresses = 0;
-  oscaddressCounter = 0;
 }
 
 void addOSCaddress(String s) {
