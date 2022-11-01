@@ -6,9 +6,9 @@ Monitor incoming OSC data on your network with this little program. A quick way 
 
 It's developed in Processing and available for MacOS, Windows and Linux.
 
-The Processing code was updated on 17-06-2017 to work with Processing 3 and the ControlP5 library (tested version 2.2.6).
+The Processing code was last updated on 01-11-2022 to work with Processing 4 and the ControlP5 library (tested version 2.2.6).
 
-I've added the old runtime applications as well, because I didn't test the new ones (just exported them with "Export Application..." in Processing).
+I've keps the old runtime applications as well, because I didn't test the new ones (just exported them with "Export Application..." in Processing).
 
 Take in account that the Mac Application is not signed. The Mac Gatekeeper might say that it's not signed and refuse to run. If the application will not run, try right-clicking the app and selecting Open from the pop-up menu. Or you can visit "System Preferences > Security & Privacy and select Allow apps downloaded from: anywhere. (Of course use at your own risk.)   
     

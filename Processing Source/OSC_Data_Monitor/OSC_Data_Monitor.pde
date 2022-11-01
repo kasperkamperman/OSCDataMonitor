@@ -2,6 +2,7 @@
  * OSC DATA MONITOR. By Kasper Kamperman
  * 23-08-2011
  * 17-06-2017 (update Processing 3 and controlP5)
+ * 11-01-2022 (update Processing 4)
  * based on the excellent controlP5 and oscP5 examples and libraries from Andreas Schlegel.
  * http://www.sojamo.de/libraries/controlP5/
  * http://www.sojamo.de/libraries/oscP5/
@@ -15,7 +16,7 @@
  *
 **/
 
-final String version = "17-06-2017";
+final String version = "11/01/2022";
 
 import oscP5.*;
 import controlP5.*;
@@ -249,18 +250,6 @@ void controlEvent(ControlEvent theEvent) {
       textInput.submit();
     }
     
-    if(name == "Clear views") {
-      listReceivedOscAddresses.clear();
-      listMonitorOSCAddresses.clear();
-      monitorHash.clear();
-      monitorList.clear();
-      oscaddressesHash.clear();
-      oscaddressesList.clear();
-      countFilteredaddresses = 0;
-      oscaddressCounter = 0; 
-          
-    }
-    
   }
   
   if (theEvent.isGroup()) {
@@ -350,6 +339,17 @@ public void stopListeningToPort(int port)
     listCommonOscPorts.addItem(str(port), port);
     monitorList.add((String) "- Stopped listening to port: "+port);
   }
+}
+
+public void buttonEmptyLists(int theValue) {
+  listReceivedOscAddresses.clear();
+  listMonitorOSCAddresses.clear();
+  monitorHash.clear();
+  monitorList.clear();
+  oscaddressesHash.clear();
+  oscaddressesList.clear();
+  countFilteredaddresses = 0;
+  oscaddressCounter = 0;
 }
 
 void addOSCaddress(String s) {
