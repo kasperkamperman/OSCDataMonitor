@@ -4,7 +4,7 @@ Monitor incoming OSC data on your network with this little program. A quick way 
 
 This repo contains the source code for Processing 4. You have to install the used libraries yourself in order to run it (OscP5, ControlP5).
 
-You can get the Windows and (signed) MacOS applications [here on Lemonsqueezy]([https://kasperkamperman.gumroad.com/l/icgez](https://kasperkamperman.lemonsqueezy.com/checkout/buy/03e29103-797b-4eb7-9f7c-231094426cf7)) (suggested price $10). 
+You can get the Windows and (signed) MacOS applications [here on Lemonsqueezy](https://kasperkamperman.lemonsqueezy.com/checkout/buy/03e29103-797b-4eb7-9f7c-231094426cf7) (suggested price $10). 
 
 If you are on Linux or another OS I recommend you to use Processing and build the application yourself if you need. 
 
